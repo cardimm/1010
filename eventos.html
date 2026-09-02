@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos — CREIO</title>
+  <meta name="description" content="Confira os próximos eventos do CREIO: congressos, tours e retiros.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV (reutilizável) ===================== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span><span class="brand__word">CREIO</span><span class="brand__tag">Sou Filho, Sou Livre</span></span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="sobre.html">Sobre</a></li>
+          <li class="has-dropdown">
+            <a class="nav__link" href="conecte-se.html">Conecte-se ▾</a>
+            <ul class="dropdown">
+              <li><a href="conecte-se.html#formacao">Escola CREIO</a></li>
+              <li><a href="conecte-se.html#musica">CREIO Música</a></li>
+              <li><a href="conecte-se.html#campus">Campus CREIO</a></li>
+              <li><a href="conecte-se.html#editora">Editora CREIO</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a class="nav__link" href="eventos.html" aria-current="page">Eventos ▾</a>
+            <ul class="dropdown">
+              <li><a href="eventos.html#igneacon">CREIOCon</a></li>
+              <li><a href="eventos.html#tour">Rota CREIO</a></li>
+              <li><a href="eventos.html#retiro">Retiro CREIO</a></li>
+            </ul>
+          </li>
+          <li><a class="nav__link" href="contato.html">Contato</a></li>
+        </ul>
+
+        <div class="nav__cta">
+          <a href="contato.html" class="btn btn--primary">Entre na comunidade</a>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="TikTok">TK</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- ===================== FIM HEADER ===================== -->
+
+  <main id="content">
+
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> / Eventos</p>
+        <h1>Encontros que marcam</h1>
+        <p>Congressos, tours e retiros pensados para formar, reunir e enviar. Confira o que vem por aí.</p>
+      </div>
+    </section>
+
+    <!-- LISTA DE EVENTOS -->
+    <section class="section">
+      <div class="container">
+
+        <article class="event-card" id="igneacon">
+          <div class="event-card__date"><span class="day">14</span><span class="month">MAR</span></div>
+          <div>
+            <h3>CREIOCon 2027</h3>
+            <p>O maior congresso anual do movimento — três dias de louvor, ensino e ministração. Arena Central, São Paulo.</p>
+          </div>
+          <a href="contato.html" class="btn btn--dark">Inscrever-se</a>
+        </article>
+
+        <article class="event-card" id="tour">
+          <div class="event-card__date"><span class="day">02</span><span class="month">MAI</span></div>
+          <div>
+            <h3>Rota CREIO</h3>
+            <p>Uma turnê de louvor e pregação passando por 8 cidades brasileiras ao longo de maio.</p>
+          </div>
+          <a href="contato.html" class="btn btn--dark">Ver datas</a>
+        </article>
+
+        <article class="event-card" id="retiro">
+          <div class="event-card__date"><span class="day">19</span><span class="month">JUN</span></div>
+          <div>
+            <h3>Retiro CREIO</h3>
+            <p>Um final de semana de silêncio, oração e comunhão na Chácara CREIO, interior de SP.</p>
+          </div>
+          <a href="contato.html" class="btn btn--dark">Inscrever-se</a>
+        </article>
+
+        <article class="event-card">
+          <div class="event-card__date"><span class="day">08</span><span class="month">AGO</span></div>
+          <div>
+            <h3>Encontro de Líderes</h3>
+            <p>Um dia de imersão para pastores e líderes de célula parceiros do movimento.</p>
+          </div>
+          <a href="contato.html" class="btn btn--dark">Inscrever-se</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band">
+          <h2>Quer receber os próximos eventos em primeira mão?</h2>
+          <a href="contato.html" class="btn btn--dark">Quero ser avisado</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER (reutilizável) ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="brand">
+            <span class="brand__mark" aria-hidden="true"></span>
+            <span><span class="brand__word">CREIO</span><span class="brand__tag">Sou Filho, Sou Livre</span></span>
+          </a>
+          <p>Um movimento para-eclesiástico dedicado ao avivamento, à formação e às missões.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Conecte-se</h4>
+          <ul>
+            <li><a href="conecte-se.html#formacao">Escola CREIO</a></li>
+            <li><a href="conecte-se.html#musica">CREIO Música</a></li>
+            <li><a href="conecte-se.html#campus">Campus CREIO</a></li>
+            <li><a href="conecte-se.html#editora">Editora CREIO</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Eventos</h4>
+          <ul>
+            <li><a href="eventos.html#igneacon">CREIOCon</a></li>
+            <li><a href="eventos.html#tour">Rota CREIO</a></li>
+            <li><a href="eventos.html#retiro">Retiro CREIO</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Institucional</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2026 CREIO. Todos os direitos reservados.</span>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TK</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ===================== FIM FOOTER ===================== -->
+
+  <script src="main.js"></script>
+</body>
+</html>
